@@ -15,12 +15,16 @@
   margin: 1rem;
 }
 
+.wrap-header-title {
+  color: gray;
+}
+
 .wrap-header-title .header-name {
+  color: black;
   font-weight: bold;
 }
 
 .wrap-header-title .header-handle, .wrap-header-title .header-date {
-  color: gray;
   font-size: 1.3rem;
 }
 
