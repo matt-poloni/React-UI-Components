@@ -24,6 +24,6 @@ a {
   text-decoration: none;
 }
 
-p,span {
-  margin: 1rem 0;
+p {
+  margin: 0;
 }
