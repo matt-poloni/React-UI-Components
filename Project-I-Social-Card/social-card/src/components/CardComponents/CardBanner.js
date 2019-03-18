@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = () => {
   return (
-    <img className="img-card" alt="React Logo" src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" />
+    <div className="img-card"></div>
   );
 }
 

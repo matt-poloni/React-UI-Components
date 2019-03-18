@@ -13,6 +13,7 @@ html {
 
 body {
   font-size: 1.4rem;
+  line-height: 1.25;
 }
 
 .wrap-all {
@@ -21,4 +22,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p,span {
+  margin: 1rem 0;
 }

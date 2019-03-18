@@ -5,19 +5,20 @@
 }
 
 .wrap-header .img-thumb {
-  width: 55px;
+  width: 5rem;
+  padding: 1rem 0.5rem;
 }
 
 .wrap-header-right {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 1rem;
 }
 
 .wrap-header-title .header-name {
-  font-size: 14px;
   font-weight: bold;
 }
 .wrap-header-title .header-handle, .wrap-header-title .header-date {
   color: gray;
+  font-size: 1.2rem;
 }
