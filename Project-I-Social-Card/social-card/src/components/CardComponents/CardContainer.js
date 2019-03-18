@@ -8,7 +8,7 @@ const CardContainer = () => {
     <a href="https://www.reactjs.org">
       <div className="wrap-card">
         <CardBanner />
-        <CardContainer />
+        <CardContent />
       </div>
     </a>
   );
