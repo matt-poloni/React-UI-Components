@@ -6,7 +6,7 @@ import CardContainer from './components/CardComponents/CardContainer.js';
 
 const App = () => {
   return (
-    <div>
+    <div className = "wrap-all">
       <HeaderContainer />
       <CardContainer />
       {/* <Footer /> */}

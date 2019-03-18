@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+.wrap-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrap-header .img-thumb {
+  width: 55px;
+}
+
+.wrap-header-right {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.wrap-header-title .header-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.wrap-header-title .header-handle, .wrap-header-title .header-date {
+  color: gray;
+}

@@ -1,1 +1,23 @@
 /* All styles for your Card Components live here */
+.wrap-card {
+  margin-left: 65px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  color: black;
+}
+
+.wrap-card .img-card {
+  width: 100%;
+}
+
+.wrap-card a {
+  color: black;
+}
+
+.wrap-card .card-title {
+  font-weight: bold;
+}
+
+.wrap-card .card-domain {
+  color: gray;
+}
