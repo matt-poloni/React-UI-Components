@@ -5,7 +5,13 @@ import 'HeaderTitle' from './HeaderTitle.js';
 import 'HeaderContent' from './HeaderContent.js';
 
 const HeaderContainer = () => {
-  return ();
+  return (
+    <div className="wrap-header">
+      <ImageThumbnail />
+      <HeaderTitle />
+      <HeaderContent />
+    </div>
+  );
 }
 
 export default HeaderContainer;
