@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = () => {
+const NumberButton = props => {
   return (
     <div className="calc-numberBtn">
-      
+      {props.text}
     </div>
   );
 };

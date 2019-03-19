@@ -1,5 +1,11 @@
 .calc-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #222222;
   color: white;
+  font-size: 72px;
+  line-height: 0;
   grid-column-start: span 4;
+  padding: 40px 30px;
 }

@@ -1,3 +1,19 @@
+.calc-actionBtn, .calc-numberBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222222;
+}
+
 .calc-actionBtn {
   grid-column-start: span 3;
+}
+
+.calc-actionBtn.number, .calc-actionBtn.operator {
+  font-weight: bold;
+}
+
+.calc-actionBtn.operator {
+  background-color: #A0001E;
+  color: white;
 }
