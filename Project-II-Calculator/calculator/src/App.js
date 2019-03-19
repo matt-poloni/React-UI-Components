@@ -10,7 +10,7 @@ import NumberButton from './components/ButtonComponents/NumberButton.js';
 const App = () => {
   return (
     <div className="calculator">
-      <CalculatorDisplay textDef='0' />
+      <CalculatorDisplay total='0' />
       <ActionButton text='clear' buttonStyle='' />
       <NumberButton text='÷' buttonStyle='operator' />
       <NumberButton text='7' buttonStyle='number' />
