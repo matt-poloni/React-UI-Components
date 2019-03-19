@@ -3,17 +3,20 @@
   justify-content: center;
   align-items: center;
   color: #222222;
+  background-color: white;
 }
 
 .calc-actionBtn {
   grid-column-start: span 3;
 }
 
-.calc-actionBtn.number, .calc-actionBtn.operator {
+.number {
   font-weight: bold;
 }
 
-.calc-actionBtn.operator {
+.operator {
   background-color: #A0001E;
   color: white;
+  font-weight: lighter;
+  font-size: 60px;
 }

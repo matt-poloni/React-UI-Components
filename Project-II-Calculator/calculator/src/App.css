@@ -1,3 +1,7 @@
+body {
+  font-weight: lighter;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,6 +11,7 @@
   margin: 0 auto;
 }
 
-.calculator div {
+.calculator button {
   border: 1px solid gray;
+  font-size: 42px;
 }

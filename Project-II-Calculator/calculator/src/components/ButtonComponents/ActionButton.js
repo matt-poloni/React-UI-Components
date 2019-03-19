@@ -1,11 +1,10 @@
 import React from 'react';
-import './Button.css';
 
 const ActionButton = props => {
   return (
-    <div className="calc-actionBtn">
+    <button className={"calc-actionBtn " + props.buttonStyle}>
       {props.text}
-    </div>
+    </button>
   );
 };
 
