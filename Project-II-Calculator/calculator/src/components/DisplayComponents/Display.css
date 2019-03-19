@@ -1,0 +1,5 @@
+.calc-display {
+  background-color: #222222;
+  color: white;
+  grid-column-start: span 4;
+}

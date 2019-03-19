@@ -1,4 +1,11 @@
-.calculator .calc-buttons {
+.calculator {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 450px;
+  height: 600px;
+  border: 1px solid gray;
+}
+
+.calculator div {
+  border: 1px solid gray;
 }
