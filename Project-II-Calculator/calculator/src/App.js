@@ -20,7 +20,7 @@ const App = () => {
       <NumberButton text='4' buttonStyle='number' />
       <NumberButton text='5' buttonStyle='number' />
       <NumberButton text='6' buttonStyle='number' />
-      <NumberButton text='-' buttonStyle='operator' />
+      <NumberButton text='–' buttonStyle='operator' />
       <NumberButton text='1' buttonStyle='number' />
       <NumberButton text='2' buttonStyle='number' />
       <NumberButton text='3' buttonStyle='number' />
