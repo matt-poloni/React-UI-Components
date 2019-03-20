@@ -1,0 +1,22 @@
+.calc-actionBtn, .calc-numberBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222222;
+  background-color: white;
+}
+
+.calc-actionBtn {
+  grid-column-start: span 3;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.operator {
+  background-color: #A0001E;
+  color: white;
+  font-weight: lighter;
+  font-size: 60px;
+}
